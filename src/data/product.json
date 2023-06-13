@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Headphones",
+      "image": "/images/headphones.jpg",
+      "price": "$10"
+    },
+    {
+      "name": "IPhone",
+      "image": "/images/iphone.jpg",
+      "price": "$1000"
+    },
+    {
+      "name": "Watch",
+      "image": "/images/watch.jpg",
+      "price": "$300"
+    },
+    {
+        "name": "Airpods",
+        "image": "/images/airpods.jpg",
+        "price": "$400"
+    },
+    {
+        "name": "laptop",
+        "image": "/images/laptop.jpg",
+        "price": "$750"
+    }
+  ]
+  
