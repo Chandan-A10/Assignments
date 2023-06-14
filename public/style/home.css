@@ -1,0 +1,64 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+    background-color: aqua;
+  }
+  .right {
+    right: 0;
+    background-color: aliceblue;
+  }
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .button{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: space-between;
+  }
+  .todo {
+    width: 44.2vw;
+    background-color: var(--dark-gray);
+    border-radius: .75rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .todo-text-container {
+    background-color: transparent;
+    border: none;
+    width: 75%;
+    display: flex;
+    gap: 1rem;
+  }
+  .check-todo-btn {
+    appearance: none;
+    float: left;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1.5px solid var(--light-gray);
+    padding: 9px;
+    border-radius: 50%;
+  }
+  .check-todo-btn {
+    appearance: none;
+    float: left;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1.5px solid var(--light-gray);
+    padding: 9px;
+    border-radius: 50%;
+  }
